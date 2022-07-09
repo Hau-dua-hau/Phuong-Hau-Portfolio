@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact me</title>
+    <link rel="stylesheet" href="Grid.css">
+    <link rel="stylesheet" href="contact-site.css">
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <main>
+        <header class="header">
+            <div class="container-fluid row alig-item-center justify-between">
+                <div class="logo"><a href="index.html"><b>My logo</b></a></div>
+                <div class="col-9 ">
+                    <div class="nav">
+                        <ul class="row justify-end">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#gallery">gallery</a></li>
+                            <li><a href="#service-container">Service</a></li>
+                            <li><a href="contact-site.html">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </header>
+        </header>
+        <section class="contact-site">
+            <div class="row justify-center">
+                <div class="contact-site_content"  data-aos="fade-up">
+                    <h1 class="title text-center">Contact me now</h1>
+                    <hr class="stars">
+                    <br>
+                    <div class="container-small row">
+                        <div class="col-12"><h2>Leave me a message</h2></div>
+                        <div class="col-6">
+                            <form >
+                                <input type="text" placeholder="Full name">
+                                <input type="email" placeholder="Email address">
+                                <input type="tel" placeholder="Your phone number">
+                                <textarea placeholder="Your message"></textarea>
+                                <input class="btn" type="button" value="Send">
+                            </form>
+                        </div>
+                       <div class="col-1"></div>
+                        <div class="col-5">
+                            <div class="information">
+                                <p>Lorem issum do si amet,<br>
+                                    212 Nguyen Dinh Chieu, Quan 3, Tp. HCM</p>
+                                <p>+84 123 456 1891</p>
+                                <p>phuonghaucothebay@gmail.com</p>
+                                <br>
+                                <div class="social-link row justify-between">
+                                    <a href="#">Facebook</a>
+                                    <a href="#">Instagram</a>
+                                    <!-- <a href="#">Email</a> -->
+                                    <a href="#">Behance</a>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer container-fluid row al">
+            <div class="col-4">
+                <a href="https://www.facebook.com/profile.php?id=100078958241698">
+                    <p class="myname">D2106G1 - Lam Huynh Phuong Hau</p>
+                </a>
+                <p class="myclass">©2022 portfolio webiste</p>
+            </div>
+            <div class="col-4"></div>
+            <div class="col-4">
+                <div class="social-link-footer row justify-between">
+                    <a href="https://www.facebook.com/profile.php?id=100078958241698">Facebook</a>
+                    <a href="#">Instagram</a>
+                    <a href="#">Email</a>
+                    <a href="https://www.behance.net/">Behance</a>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+        AOS.init({ duration: 1000, })
+    </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js">
+    </script>
+    <script>
+        $(document).ready(function () {
+            $(window).scroll(function() {
+                if ($(this).scrollTop()) {$('header').addClass('sticky');}
+                else { $('header').removeClass('sticky');}
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,113 @@
+*{ margin: 0; padding: 0; box-sizing: border-box;}
+
+body{
+    background-color: #F6F6F4;
+    font-family: 'Julius Sans One', sans-serif;
+    /* font-family: 'Cormorant Garamond', serif;
+    font-family: 'Source Serif Pro', serif; */}
+h6 { letter-spacing: 2px;}
+a {text-decoration: none;}
+p { font-family: 'Source Serif Pro', serif; 
+    font-size: 16px;
+    color: #776f60;}
+h1 {
+    font-family: 'Cormorant Garamond';
+    font-weight: 400;
+    font-size: 40px;
+    color: #3E3930;}
+.btn {
+    padding: 15px 30px;
+
+    color: #ffffff;
+    border: 1px solid rgb(38, 24, 24);
+    background-color: rgb(38, 24, 24);
+
+    transition-duration: 0.3s;
+    text-decoration: none;}
+.btn:hover {
+    color:black;
+    border: 1px solid  rgb(38, 24, 24);
+    background-color: #F6F6F4;
+   
+}
+.btn01{ 
+    /* padding: 5px 15px; */
+
+    color:black;
+    /* border: 1px solid  rgb(38, 24, 24); */
+    background-color: #F6F6F4;
+
+    transition-duration: 0.3s;
+    text-decoration: none;
+    text-decoration: underline 1px rgba(0, 0, 0, 0.496)
+}
+.btn01:hover{ 
+    color: rgb(218, 135, 0);
+    /* border: 1px solid rgb(38, 24, 24); */
+    text-decoration: underline 3px rgb(255, 157, 0);
+}
+/* =====general===== */
+
+.contact-site{ 
+    width: 100%;
+    padding:200px 0px;
+    background-image: url(img/banner.jpg);
+    background-attachment: fixed;
+    margin-top: 100px;
+}
+.contact-site_content{
+    padding: 40px 50px;
+    background-color: #F6F6F4;
+}
+.contact-site_content h1{ font-size: 35px;}
+section{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+.contact-site__container {
+    width: 1000px; height: 400px;
+    background-color: #F6F6F4;
+}
+.container-small { width: 900px;}
+.container-small h2 {font-size: 15px;}
+
+/* hr{ border: 1px blue;} */
+.title { font-size: 40px; color: #000000;}
+hr {
+     border-radius: 2px;
+     width: 20%;
+     margin: 0 auto;}
+
+input, textarea { 
+    width: 100%; 
+    margin-bottom: 15px; 
+    padding: 15px 0px;}
+textarea, input { padding: 20px 0px 20px 10px;}
+
+
+.information p { margin-bottom: 10px;}
+.icon { width: 100px;}
+
+
+
+/* ======COntact form===== */
+
+.footer {
+    height:100px;
+    padding:20px 50px 10px 50px;
+    background-color: rgb(255, 157, 0) ;
+    color: #000000ba;
+}
+.myclass{ color: rgba(33, 0, 0, 0.5);}
+.myname { color: #F6F6F4; font-size: 20px;}
+.social-link-footer a{ 
+    text-decoration: none;
+    color:  rgba(33, 0, 0, 0.889);
+    font-size: 20px;
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;}
+    .social-link-footer a:hover { 
+        color:rgb(255, 255, 255);
+        transition-duration: 0.5s;}
+/* =====Footer===== */  
